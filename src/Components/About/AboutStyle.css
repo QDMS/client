@@ -1,0 +1,41 @@
+.about-section {
+    box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+   margin-top: 50px;
+
+   height: 400px;
+}
+
+#dark .about-section{
+    box-shadow: 15px 9px 9px -2px rgba(129, 199, 111, 0.86);
+}
+
+.about-image img {
+    height: 300px;
+    width: 300px;
+    border-radius: 190px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border: 5px solid #A25121;
+}
+
+.about-details{
+    margin-top: 50px;
+}
+
+.about-title h1{
+    text-align: center;
+}
+
+.line{
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 1px auto;
+    background-color: #81C76F;
+}
+
+@media (max-width:1000px) {
+    .about-section {
+        height: auto;
+    }
+}

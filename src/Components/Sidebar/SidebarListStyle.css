@@ -1,0 +1,45 @@
+.sidebar-logo img {
+    border-radius: 90px;
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    vertical-align: middle;
+    margin: 0 auto;
+    border: 2px solid #A25121;
+}
+
+.navbar-items ul li {
+    color: #F4F1A8;
+    list-style-type: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.navbar-items ul li svg {
+    margin-right: 25px;
+    margin-left: 10px;
+}
+
+.navbar-items-only-icons ul li {
+    list-style-type: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.navbar-items-only-icons ul li svg {
+    margin-left: 10px;
+}
+
+.navbar-items ul li a {
+    text-decoration: none;
+}
+
+.nav-item .active {
+    color: #81C76F;
+
+}
+
+.navbar-items-only-icons .active {
+    border-left: 2px solid #81C76F;
+}

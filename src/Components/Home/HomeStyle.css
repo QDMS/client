@@ -1,0 +1,93 @@
+.home{
+    height: 270px;
+    color: #F4F1A8;
+}
+
+.home-content{
+    
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.home-content h3{
+    margin-top: 20px;
+    color: #A25121;
+}
+
+.button-for-action{
+    display: flex;
+}
+
+.hire-me-button{
+    background-color:#81C76F;
+    text-align: center;
+    width: 180px;
+    padding: 10px;
+    border-radius: 90px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 2px solid #A25121;
+    font-size: 18px;
+}
+
+.hire-me-button:hover{
+    background-color: #A6AAAC;
+    width: 250px;
+    color: black;
+    transition-duration: 1s;
+}
+
+.headerimage{
+    position: relative;
+    bottom: 150px;
+    left: 70%;
+    display: flex;
+     height: 400px;
+    width: 400px;
+}
+
+.theme-change{
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color:#23383f ;
+    right: 0;
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    position: fixed;
+    top: 150;
+    margin-top: 250px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sun-theme-icon{
+    animation: rotation infinite 5s linear;
+}
+
+.moon-theme-icon{
+    
+	animation: rotateAnimation 5s linear infinite;
+}
+
+@keyframes rotation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateAnimation {
+	from {transform: rotateY(0deg);}
+	to {transform: rotateY(360deg);}
+}
+
+@media (max-width:1000px) {
+    .theme-change {
+       display: none;
+    }
+}

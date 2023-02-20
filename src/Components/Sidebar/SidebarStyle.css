@@ -1,0 +1,41 @@
+.sidebar-section{
+    display: flex;
+    background-color: #353935;
+}
+
+.sidebar{
+    height: 100vh;
+    background-color: #030303ad;
+    width: 95px;
+    position: fixed;
+}
+
+.sidebar-expand{
+    width: 230px;
+}
+
+.icon-for-sidebar-expand-and-collapse{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+.icon-for-sidebar-expand-and-collapse p svg{
+    background-color: #A25121;
+    padding: 5px;
+    color: #F4F1A8;
+    border-radius: 2px;
+    margin-top: 50px;
+}
+
+.container-fluid{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    overflow: hidden;
+}
+
+@media (max-width:1000px) {
+    .sidebar{
+        display: none;
+    }
+}
